@@ -1,0 +1,243 @@
+/* start main rulze*/
+.slider{
+	height: 600px;
+	background-image: url(../image/work/cover.jpg);
+	background-size: cover;}
+.contianer{width: 1170px;margin: auto;}
+.slider .contianer .intro{
+	padding-top: 250px;
+	height: 600px;
+	text-align: center;
+	color: #fff;}
+.slider .contianer .intro h2{
+    margin: 0 auto;
+	font-size: 50px;
+	width: 600px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	padding: 7px 0px;}
+.slider .contianer .intro button{
+	background:none;
+	width: 110px;
+	margin-top: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size:15px;
+	font-weight: bold;
+	color: #fff;
+	border: 3px solid #fff;}
+.clear{clear: both;} /*to organize the float*/	
+
+/* end main rulze*/
+/*start header*/
+
+.header .navbar{
+	background-color: #252f31;
+	color: #fff;
+	overflow: hidden;} /*for items hae float donot go out from it*/
+.header .navbar h2 span{color: #32be75;}	
+.header .navbar ul{
+	float: right;
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;}
+.header .navbar ul li {	padding:10px;}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:#1f9b5d;}
+.header .navbar ul li a{color: #fff;text-decoration: none;}
+
+
+/*end header*/
+/*start features*/
+.features{	
+	overflow: hidden;
+	padding-top: 35px;
+	padding-bottom: 45px;}
+.features .feat{
+ width: 33.33333%;
+ height: 150px;}
+.features .feat h3{color: #555;}	
+/*end features*/
+/*start about me*/
+
+.aboutme{background-color: #f2f2f2;overflow: hidden;}
+.aboutme .image{width: 40%;}
+.aboutme .image img{margin-top:100px; width: 100%;}
+.about-me {float:right;width:60%;}
+.about-me .info h2{margin: 30px 0px 20px 40px;}
+.about-me .info >p{margin: 0px 0px 10px 40px;}
+.about-me .info p:last-of-type{margin-top: 30px;}
+.about-me  .hoppies{margin: 40px 0px 10px 40px;}
+.about-me .hoppies .content{width: 50%; overflow: hidden;}
+.about-me .hoppies .content h3{color: #555; margin-right: 12px;}
+.about-me .hoppies .content p{margin: 20px 0px 20px 40px;}
+.about-me .hoppies .content .icon{width: 12%}
+.about-me .hoppies .content .icon i{display:}
+.about-me .hoppies .content .text{width: 88%;}
+/*end about me*/
+/*start my skills*/
+.myskills .contianer{overflow: hidden; padding: 0px;}
+.myskills  .skills ,.myskills .progress {width: 50%;}
+.myskills .skills h2{margin: 30px 0px 20px 40px;color: #666;}
+.myskills .skills >p{margin: 0px 0px 10px 40px;}
+.myskills .skills p:last-of-type{margin-top: 30px;}
+.myskills .skills button{
+	margin: 30px 0 5px 40px;
+	padding: 10px; 
+	width: 115px;}
+.myskills .progress{margin: 55px 0px 70px;}
+.myskills .progress .techniques{padding-left:40px;}
+.myskills .progress .techniques>h3{color: #514f4f; padding: 20px 0px;}
+.myskills .progress .techniques div{
+	overflow: hidden;
+	background-color: #f2f2f2;
+	width: 370px;
+	height: 23px;}
+/* we cen reblace all of this code with styling span in html file :D */
+.myskills .progress .techniques div span{
+	background-color: #2dcc70;
+	height: 100%;
+    width: 90%; 
+    display: block;
+    color: #777;}
+
+.myskills .progress .techniques div .ninty{width:90%;}
+.myskills .progress .techniques div .ninty>span{ display: inline;padding-left: 290px;}
+.myskills .progress .techniques div  .eghity{ width:80%}
+.myskills .progress .techniques div .eghity>span{ display: inline;padding-left: 260px;}
+.myskills .progress .techniques div .seventy{width:70%;}
+.myskills .progress .techniques div .seventy>span{ display: inline;padding-left: 220px;}
+/*end code we can replace :'(*/
+
+/*end my skills*/
+/*start resume*/
+.resume{
+	background-color:#f2f2f2;
+	overflow: hidden;
+	text-align: center;
+	padding: 30px 0px;}
+.resume button{
+	margin: 20px;
+	padding: 15px;
+	width: 165px;
+	font-size: 16px;}
+.resume p{padding:25px 40px; margin: 0px 25px 0px 80px;}
+/*end resume*/
+/*start my education*/
+.myeducation .contianer{overflow: hidden; padding: 30px 0px;}
+.myeducation  .education {width: 50%;}
+.myeducation .exp  hr{margin:20px;border: 0px;background-color: #999;}
+.myeducation  .education h2{margin: 30px 0px 20px 40px;color: #514f4f;}
+.myeducation  .education >p{margin: 0px 0px 10px 40px;}
+.myeducation  .education p:last-of-type{margin-top: 30px;line-height: 1.5;}
+.myeducation .exp {
+	width: 45%;
+	margin-top:70px;
+	margin-left: 5%;}
+.myeducation .exp .certficate{margin-bottom: 50px;}
+.myeducation .exp .certficate h3{color: #666; padding: 5px;}
+.myeducation .exp .certficate span{
+	display: block;
+	color: #777;
+	padding: 5px;}
+.myeducation .exp .certficate span:last-of-type{
+	display: inline-block;
+	color: #fff;
+	background-color: #2dcc70;
+	padding: 10px;
+	margin-left: 6px;}
+/*end my education*/
+/*start testemolins*/
+.testemolins{
+	background-color:#f2f2f2;
+	padding-top:60px;
+	padding-bottom: 60px;
+	overflow: hidden;
+	text-align: center;}
+.testemolins q{
+	color: #666;
+	line-height: 1.8;
+	font-size: 18px;
+	color: #666;
+	font-style: italic;}
+.testemolins  h3{
+	color: #777;
+	padding-top:25px;
+	padding-bottom: 30px;}
+.testemolins ul li{
+	display: inline-block;
+	border: solid 3px #2dcc70;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;}
+.testemolins ul li.active,
+.testemolins ul li:hover
+ {background-color:#2dcc70; }
+
+/*end testemolins*/
+/*start portofolio*/
+.portofolio{padding: 90px 0px; text-align: center;}
+.portofolio h2{color: #777;}
+.portofolio p{
+	margin-bottom: 30px;padding:20px 65px 30px;}
+.portofolio .our-work{overflow: hidden;}
+.portofolio .our-work > div{width: 33.333333%;margin-bottom: 10px;}
+.portofolio .our-work > div img{width: 80%; margin: 10px;}
+/*end portofolio*/
+/*start contact me*/
+.contact-me{background-color: #252f31;overflow: hidden;}
+.contact-me .contianer{overflow: hidden; padding: 30px 0px ;}
+
+.contact-me .info {width: 50%; margin-right: 5%;}
+.contact-me .info h2{
+	color: #fff;
+	margin-left: 40px;
+	padding: 10px 0px;}
+.contact-me .info p{
+	color:#5d6266;
+	margin-left: 40px;
+	margin-bottom: 20px;}
+.contact-me .form {width: 45% }
+.contact-me .info strong{color: #e8e4e4; padding:35px 0px;}
+.contact-me .form label{display: block; color: #e8e4e4;}
+.contact-me .form input[type="text"]{
+	width: 80%;
+	padding: 8px;
+	background-color:#5d6266;
+	border: 0px;
+	margin: 10px 0px; }
+.contact-me .form textarea{
+    width: 80%;
+    display: block;
+	background-color:#5d6266;
+	border: 0px;
+	margin: 10px 0px;
+	height: 270px;	}
+.contact-me .form input[type="submit"]{
+	background-color: #191e22;
+	border: 0px;
+	padding:10px;
+	color: #e8e4e4;}
+/*end contact me*/
+/*start footer*/
+.footer{
+	background-color: #191e22;
+	overflow: hidden;
+	text-align: center;
+	padding: 30px 0px;
+	color:#e8e4e4; }
+.footer ul li{display: inline-block;}
+.footer ul li i{padding: 10px;}
+.footer ul li i:hover{color: #ff0;}
+
+/*end footer*/
+/* start my framwork*/
+.my-button{
+	background:none;
+	font-size:15px;
+	border: 2px solid #2dcc70;
+	color: #777;}
+.fl-left{float: left;}
+p{line-height: 1.7;color: #888;}
+
+/*end my framwork*/
